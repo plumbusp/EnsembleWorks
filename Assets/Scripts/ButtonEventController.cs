@@ -8,7 +8,8 @@ public class ButtonEventController : MonoBehaviour
 {
     public UnityEvent buttonActionEvent;
     private Button button;
-    private float _actionDelay = 0.1f;
+    private Animator animator;
+    private float _actionDelay = 0.15f;
 
     private void Awake()
     {

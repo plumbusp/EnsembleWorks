@@ -36,10 +36,9 @@ public class RigidbodyFollowTheCursor : MonoBehaviour
             //{
             //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, _maxSpeed);
             //}
-            if (rb.angularVelocity > _maxSpeed)
-                rb.angularVelocity = _maxSpeed;
+            //if (rb.angularVelocity > _maxSpeed)
+            //    rb.angularVelocity = _maxSpeed;
             rb.MovePosition(newPosition);
-            Debug.Log("Linear velocity "+ rb.linearVelocity);
         }
     }
 }
