@@ -770,6 +770,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 902721137}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenSettings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1760,6 +1768,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 902721137}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2113,6 +2129,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 902721137}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseSettings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2360,6 +2384,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6493997137417741182, guid: 54bf0526aea0f1f4d967eccfd9338e3a, type: 3}
+      propertyPath: buttonActionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 902721137}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

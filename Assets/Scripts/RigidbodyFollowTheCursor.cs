@@ -28,15 +28,18 @@ public class RigidbodyFollowTheCursor : MonoBehaviour
         if (isDragging)
         {
             Vector3 newPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)) + offset;
-            if(rb.linearVelocity.x > _maxSpeed)
-            {
-                rb.linearVelocity = new Vector2(_maxSpeed, rb.linearVelocity.y);
-            }
-            if (rb.linearVelocity.y > _maxSpeed)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, _maxSpeed);
-            }
+            //if(rb.linearVelocity.x > _maxSpeed)
+            //{
+            //    rb.linearVelocity = new Vector2(_maxSpeed, rb.linearVelocity.y);
+            //}
+            //if (rb.linearVelocity.y > _maxSpeed)
+            //{
+            //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, _maxSpeed);
+            //}
+            if (rb.angularVelocity > _maxSpeed)
+                rb.angularVelocity = _maxSpeed;
             rb.MovePosition(newPosition);
+            Debug.Log("Linear velocity "+ rb.linearVelocity);
         }
     }
 }
